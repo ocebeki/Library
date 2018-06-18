@@ -1,0 +1,69 @@
+body {
+    margin: 100px 100px;
+    text-align: center;
+    background: #6ab187;
+    font-family: sans-serif;
+}
+.newBookForm {
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+    justify-content: center;
+}
+.newBookForm input {
+    height: 32px;
+    margin: 10px;
+    border: none;
+    border-bottom: solid 2px #20948b;
+    background: transparent;
+}
+.newBookForm input:focus {
+    outline: none;
+}
+.read {
+    height: 32px;
+    width: 100px;
+    margin-top: 23px;
+}
+.newBookForm p {
+    display: inline-block;
+    line-height: 16px;
+    margin: 0;
+}
+.read input {
+    height: auto;
+    margin: 0;
+}
+#btn-save button {
+    margin-top: 16px;
+    background: #de7a22;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5%;
+    transition: .4s;
+}
+#btn-save button:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: .4s;
+}
+.detiles {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 100px;
+}
+.detiles p {
+    width: 25%;
+    font-weight: bold;
+}
+#bookList input {
+    width: 25%;
+}
+.myBook {
+    display: flex;
+    border-bottom: solid 1px #20948b;
+}
+#bookList p {
+    width: 25%;
+}
